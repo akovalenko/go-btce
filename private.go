@@ -1,7 +1,7 @@
 package btce
 
 // Private API methods, results and parameters, per
-// https://btc-e.nz/tapi/docs
+// https://wex.nz/tapi/docs
 
 type ActiveOrdersParameters struct {
 	Pair string

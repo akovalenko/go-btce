@@ -10,7 +10,7 @@ import (
 //
 // Alternative domain in .nz is used for the sake of Russian firewall
 // victims, having btc-e.com blocked.
-const DefaultBaseURL = "https://btc-e.nz"
+const DefaultBaseURL = "https://wex.nz"
 
 // DefaultClient is an application-wide instance of btce.Client, just
 // to avoid passing it around when you only need one.

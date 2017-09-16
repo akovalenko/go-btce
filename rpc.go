@@ -22,8 +22,7 @@ import (
 var HttpClient = &http.Client{Timeout: 5 * time.Second}
 
 // NewClient creates a BTC-e client, given a base URL which should
-// normally be either https://btc-e.com or https://btc-e.nz (for
-// victims of the Russian firewall).
+// normally be https://wex.nz.
 //
 // Public API methods can be called immediately on newly-created
 // client. For private methods, use ReadKey to load API authentication

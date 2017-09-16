@@ -6,7 +6,7 @@ import (
 )
 
 // Public API methods, results and parameters, per
-// https://btc-e.com/api/3/documentation
+// https://wex.nz/api/3/documentation
 
 // PublicInfo represents a result returned by GetInfo method of the public API
 // (don't confuse with getInfo method of the private API)

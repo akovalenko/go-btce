@@ -1,6 +1,6 @@
 # Project btcego #
 
-Library and tools for [BTC-e.com](https://btc-e.com) cryptocurrency exchange.
+Library and tools for [WEX](https://wex.nz) cryptocurrency exchange (former BTC-e, hence naming).
 
 ## Installation ##
 
@@ -10,12 +10,12 @@ Library and tools for [BTC-e.com](https://btc-e.com) cryptocurrency exchange.
 
 A wrapper around public and private (trading) API remote calls.
 
-Disclaimer: *[BTC-e.com](https://btc-e.com) is not affiliated with the
+Disclaimer: *[WEX](https://wex.nz) is not affiliated with the
 project.* It's implemented using public documentation:
 
-  * [Public API](https://btc-e.nz/api/3/documentation): accessible to anyone, no API key required
-  * [Private API](https://btc-e.nz/tapi/docs): requires an API key
-  * [Push API](https://btc-e.nz/pushAPI/docs)
+  * [Public API](https://wex.nz/api/3/documentation): accessible to anyone, no API key required
+  * [Private API](https://wex.nz/tapi/docs): requires an API key
+  * [Push API](https://wex.nz/pushAPI/docs)
 
 Some ideas were borrowed from
 the
@@ -24,9 +24,9 @@ Python library.
 
 See [documentation](https://godoc.org/github.com/akovalenko/go-btce) for details.
 
-Donate to [19hZ7ZmYiPq5XbJQyFSHsVtQCKUhX1Stkd](bitcoin:19hZ7ZmYiPq5XbJQyFSHsVtQCKUhX1Stkd) if you find it useful:
+Donate bitcoin to [3GfDvGGd6fqxwR118L7X6XfVFuwni9F33m](bitcoin:3GfDvGGd6fqxwR118L7X6XfVFuwni9F33m) if you find it useful:
 
-![bitcoin](https://www.freeformatter.com/qr-code?w=350&h=350&e=Q&c=http%3A%2F%2Fbitcoin%3A19hZ7ZmYiPq5XbJQyFSHsVtQCKUhX1Stkd)
+![bitcoin](https://www.freeformatter.com/qr-code?w=350&h=350&e=Q&c=bitcoin%3A3GfDvGGd6fqxwR118L7X6XfVFuwni9F33m)
 
 ## Data ##
 

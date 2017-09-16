@@ -58,7 +58,7 @@ like this:
 		"max": 9000.0,
 		"_2_": "-- Connection configuration",
 		"keyfile": "key.json",
-		"url": "https://btc-e.nz",
+		"url": "https://wex.nz",
 		"_3_": "-- Order placement configuration",
 		"spread": 1.006,
 		"capitalize": "btc",

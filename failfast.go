@@ -30,7 +30,7 @@ func (c *Client) PublicInfo() *PublicInfo {
 }
 
 // PrivateInfo is a single-return, panicking-on-error wrapper for
-// getInfo - see https://btc-e.nz/tapi/docs#getInfo
+// getInfo - see https://wex.nz/tapi/docs#getInfo
 func (c *Client) PrivateInfo() GetInfoResult {
 	result := GetInfoResult{}
 	err := c.Call(GetInfoParameters{}, &result)
@@ -41,7 +41,7 @@ func (c *Client) PrivateInfo() GetInfoResult {
 }
 
 // ActiveOrders is a single-return, panicking-on-error wrapper for private
-// API method ActiveOrders - see https://btc-e.nz/tapi/docs#ActiveOrders
+// API method ActiveOrders - see https://wex.nz/tapi/docs#ActiveOrders
 func (c *Client) ActiveOrders(p ActiveOrdersParameters) ActiveOrdersResult {
 	result := ActiveOrdersResult{}
 	err := c.Call(p, &result)
@@ -52,7 +52,7 @@ func (c *Client) ActiveOrders(p ActiveOrdersParameters) ActiveOrdersResult {
 }
 
 // Trade is a single-return, panicking-on-error wrapper for private
-// API method Trade - see https://btc-e.nz/tapi/docs#Trade
+// API method Trade - see https://wex.nz/tapi/docs#Trade
 func (c *Client) Trade(p TradeParameters) TradeResult {
 	result := TradeResult{}
 	err := c.Call(p, &result)
@@ -63,7 +63,7 @@ func (c *Client) Trade(p TradeParameters) TradeResult {
 }
 
 // OrderInfo is a single-return, panicking-on-error wrapper for private
-// API method OrderInfo - see https://btc-e.nz/tapi/docs#OrderInfo
+// API method OrderInfo - see https://wex.nz/tapi/docs#OrderInfo
 func (c *Client) OrderInfo(p OrderInfoParameters) OrderInfoResult {
 	result := OrderInfoResult{}
 	err := c.Call(p, &result)
@@ -74,7 +74,7 @@ func (c *Client) OrderInfo(p OrderInfoParameters) OrderInfoResult {
 }
 
 // CancelOrder is a single-return, panicking-on-error wrapper for private
-// API method CancelOrder - see https://btc-e.nz/tapi/docs#CancelOrder
+// API method CancelOrder - see https://wex.nz/tapi/docs#CancelOrder
 func (c *Client) CancelOrder(p CancelOrderParameters) CancelOrderResult {
 	result := CancelOrderResult{}
 	err := c.Call(p, &result)
@@ -85,7 +85,7 @@ func (c *Client) CancelOrder(p CancelOrderParameters) CancelOrderResult {
 }
 
 // TradeHistory is a single-return, panicking-on-error wrapper for private
-// API method TradeHistory - see https://btc-e.nz/tapi/docs#TradeHistory
+// API method TradeHistory - see https://wex.nz/tapi/docs#TradeHistory
 func (c *Client) TradeHistory(p TradeHistoryParameters) TradeHistoryResult {
 	result := TradeHistoryResult{}
 	err := c.Call(p, &result)
@@ -96,7 +96,7 @@ func (c *Client) TradeHistory(p TradeHistoryParameters) TradeHistoryResult {
 }
 
 // TransHistory is a single-return, panicking-on-error wrapper for private
-// API method TransHistory - see https://btc-e.nz/tapi/docs#TransHistory
+// API method TransHistory - see https://wex.nz/tapi/docs#TransHistory
 func (c *Client) TransHistory(p TransHistoryParameters) TransHistoryResult {
 	result := TransHistoryResult{}
 	err := c.Call(p, &result)
@@ -107,7 +107,7 @@ func (c *Client) TransHistory(p TransHistoryParameters) TransHistoryResult {
 }
 
 // CoinDepositAddress is a single-return, panicking-on-error wrapper for private
-// API method CoinDepositAddress - see https://btc-e.nz/tapi/docs#CoinDepositAddress
+// API method CoinDepositAddress - see https://wex.nz/tapi/docs#CoinDepositAddress
 func (c *Client) CoinDepositAddress(p CoinDepositAddressParameters) CoinDepositAddressResult {
 	result := CoinDepositAddressResult{}
 	err := c.Call(p, &result)
@@ -118,7 +118,7 @@ func (c *Client) CoinDepositAddress(p CoinDepositAddressParameters) CoinDepositA
 }
 
 // WithdrawCoin is a single-return, panicking-on-error wrapper for private
-// API method WithdrawCoin - see https://btc-e.nz/tapi/docs#WithdrawCoin
+// API method WithdrawCoin - see https://wex.nz/tapi/docs#WithdrawCoin
 func (c *Client) WithdrawCoin(p WithdrawCoinParameters) WithdrawCoinResult {
 	result := WithdrawCoinResult{}
 	err := c.Call(p, &result)
@@ -129,7 +129,7 @@ func (c *Client) WithdrawCoin(p WithdrawCoinParameters) WithdrawCoinResult {
 }
 
 // CreateCoupon is a single-return, panicking-on-error wrapper for private
-// API method CreateCoupon - see https://btc-e.nz/tapi/docs#CreateCoupon
+// API method CreateCoupon - see https://wex.nz/tapi/docs#CreateCoupon
 func (c *Client) CreateCoupon(p CreateCouponParameters) CreateCouponResult {
 	result := CreateCouponResult{}
 	err := c.Call(p, &result)
@@ -140,7 +140,7 @@ func (c *Client) CreateCoupon(p CreateCouponParameters) CreateCouponResult {
 }
 
 // RedeemCoupon is a single-return, panicking-on-error wrapper for private
-// API method RedeemCoupon - see https://btc-e.nz/tapi/docs#RedeemCoupon
+// API method RedeemCoupon - see https://wex.nz/tapi/docs#RedeemCoupon
 func (c *Client) RedeemCoupon(p RedeemCouponParameters) RedeemCouponResult {
 	result := RedeemCouponResult{}
 	err := c.Call(p, &result)
